@@ -21,6 +21,7 @@ header {
     /* margin: auto 3px 3px; ??????  */
 }
 
+
 /* FIRST SECTION ---------------------> */
 
 main {
@@ -58,7 +59,7 @@ span {
 
 /* ARTICLE SECTION ---------------------> */
 
-article,
+section,
 ul {
     margin: 20px 0;
 }
@@ -78,7 +79,6 @@ thead{
 td {
     width: 50px;
     vertical-align: top;
-   
 }
 
 tbody > tr:nth-child(odd) {
@@ -88,14 +88,12 @@ tbody > tr:nth-child(odd) {
 
 /* LAST SECTION ---------------------> */
 
-
 .next_articles{
     margin: 10px 0;
 }
 
 .next_articles_image {
     position: relative;
-    
 }
 
 .next_articles_image > img {
