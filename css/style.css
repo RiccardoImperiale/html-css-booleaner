@@ -1,5 +1,4 @@
-
-body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +16,33 @@ header {
 #logo {
     width: 200px;
     position: absolute;
-    left: 3px;
+    left: 8px;
     bottom: 10px;
-    /* margin: auto 3px 3px;  */
+    /* margin: auto 3px 3px; ??????  */
+}
+
+main {
+    padding: 0 8px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.article_info {
+    margin: 10px 0;
+    color: gray;
+    font-weight: bold;
+}
+
+span {
+    color: #2DAEE6;
+}
+
+.article_info_date {
+    font-size: 11px;
+}
+
+.captions {
+    font-size: 11px;
 }
