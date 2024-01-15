@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -21,11 +21,14 @@ header {
     /* margin: auto 3px 3px; ??????  */
 }
 
+/* FIRST SECTION ---------------------> */
+
 main {
     padding: 0 8px;
 }
 
 h1 {
+    font-size: 40px;
     margin: 10px 0;
 }
 
@@ -45,4 +48,34 @@ span {
 
 .captions {
     font-size: 11px;
+}
+
+
+/* ARTICLE SECTION ---------------------> */
+
+article,
+ul {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #2DAEE6;
+    color: white;
+}
+
+td {
+    width: 50px;
+    vertical-align: top;
+   
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #B1E5F2;
 }
